@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <div className={` ${styles.container} ${isDarkMode ? styles.dark : styles.white}`} >
-      <a href="#"><FaGithub/> code</a>
+      <a href="https://github.com/SergiiMost/so-filter" target="_blank"><FaGithub/> code</a>
       <span>, 2020.</span>
     </div>
   )
