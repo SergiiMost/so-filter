@@ -1,0 +1,94 @@
+@import '../../assets/styles/colors';
+
+.container{
+  max-width: 70rem;
+  margin: 2rem auto 4rem auto;
+  font-weight: 600;
+  & label{
+    padding-bottom: .5rem;
+  }
+}
+
+@media screen and (max-width:730px){
+  .container{
+    margin: 2rem 1rem 3rem 1rem;
+  }
+}
+
+.textWhite{
+  color: white;
+}
+
+.textBlack{
+  color: black;
+}
+
+.inputGroup{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  & input{
+     min-width: 17rem;
+  } 
+}
+
+@media screen and(max-width:600px){
+  .inputGroup{
+    flex-direction: column;
+    
+    & input{
+      text-align: center;
+      width: 100%;
+    }
+
+    & .input:not(:first-child){
+      margin: 1rem 0;
+    }
+  }
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputTags{
+  margin-top: 2rem;
+
+  & input{
+    width: 100%;
+  }
+}
+
+.inputTagsHelper{
+  display: flex;
+  justify-content: space-between;
+  min-height: 3.6rem;
+
+  & .inputTagInstructions{
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  & .inputTagInstructions span:last-child{
+    display: flex;
+    align-items: center;
+  }
+}
+
+.tagsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  
+  & div:last-child{
+    margin-right: 0;
+  }
+}
+
+
+
+
+

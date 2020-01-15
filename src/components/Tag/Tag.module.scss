@@ -1,0 +1,39 @@
+@import '../../assets/styles/colors';
+
+.container{
+  display: flex;
+  padding: .6rem;
+  background-color: $grey;
+  align-items: center;
+  margin: .5rem;
+  font-size: 1.1rem;
+  border-radius: .5rem;
+  color:black;
+  
+  &:hover{
+    cursor: pointer;
+  }
+  
+  &:hover svg{
+    color: $red;
+  }
+
+  &:hover span{
+    color: $red;
+  }
+
+  & svg{
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+}
+
+.tagGreen{
+  color: green;
+  margin-right: 3px;
+}
+
+.tagRed{
+  color: $red;
+  margin-right: 3px;
+}

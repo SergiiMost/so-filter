@@ -1,0 +1,43 @@
+@import '../../assets/styles/colors';
+
+.btn{
+  margin: 2rem auto 0 auto;
+  max-width: 70rem;
+  width: 100%;
+  display: block;
+  text-align: center;
+  border: none;
+  padding: 1rem 0;
+  font-weight: 600;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.btnShort{
+  max-width: 30rem;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+
+.btnLight{
+  background-color:$purple;
+  color: black;
+}
+
+.btnLight:hover{
+  background-color: darken($purple, 5%);
+}
+
+.btnDark{
+  background-color:$blue;
+  color: white;
+}
+
+.btnDark:hover{
+  background-color: darken($blue, 5%);
+}
